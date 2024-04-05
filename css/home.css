@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 body{
-
+    background-color: black;
+    color: white;
 }
 .container-fluid{
-    background-color: black;
 
 }
 .col-sm-2{
-    background-color: aqua;
+  border: 1px solid white;
     height: 100px;
 
 }
-.col-sm-4{
-    background-color: aqua;
-    height: 100px;
+.col-sm-6{
+    border: 1px solid white;
+    min-height: 100px;
 
 }
