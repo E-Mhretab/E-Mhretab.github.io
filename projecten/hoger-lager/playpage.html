@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hoger Lager</title>
+  <link rel="stylesheet" href="/projecten/hoger-lager/css/playpage.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="text-center">
+      <h1 class="first-title">Hoger Lager</h1>
+      <hr>
+    </header>
+    <main>
+      <div class="headings">
+        <div>&nbsp;</div>
+        <div class="text-center">
+          <h3 class="players">&#128187; Computer</h3>
+        </div>
+        <div>&nbsp;</div>
+        <div class="text-center">
+          <h3 class="players"> &#128100; Speler</h3>
+        </div>
+        <div>&nbsp;</div>
+      </div>
+      <div class="credits">
+        <div>&nbsp;</div>
+        <div class="text-center">
+          <h4>Credits: <span class="computer-credits"></span></h4>
+        </div>
+        <div>&nbsp;</div>
+        <div class="text-center">
+          <h4>
+            Credits: <span id="demo" class="player-credits"></span>
+          </h4>
+        </div>
+        <div>&nbsp;</div>
+      </div>
+      <div class="dices">
+        <div>&nbsp;</div>
+        <div class="dices-computer-player">
+          <div class="dice js-first-dice text-center computer-dice-one">&#9856;</div>
+          <div class="dice js-second-dice text-center computer-dice-two">&#9857;</div>
+        </div>
+        <div>&nbsp;</div>
+        <div class="dices-player">
+          <div class="dice js-third-dice text-center player-dice-one">&#9858;</div>
+          <div class="dice js-forth-dice text-center player-dice-two">&#9859;</div>
+        </div>
+        <div>&nbsp;</div>
+      </div>
+      <div class="message text-center">
+        <div>&nbsp;</div>
+        <div class="message-box">
+          <p class="info-button">Druk op Go om het spel te starten.</p>
+        </div>
+        <div>&nbsp;</div>
+      </div>
+      <div class="controls">
+        <div>&nbsp;</div>
+        <div class="text-center player-dice-button-container">
+          <button class="dice-button">
+            Gooi dobbelsteen
+        </button>
+        </div>
+        <div class="text-center higher-button-container">
+          <button class="higher-button">
+            Hoger
+          </button>
+        </div>
+        <div class="text-center lower-button-container">
+          <button class="lower-button">
+            Lager
+          </button>
+        </div>
+        <div class="text-center go-button-container">
+          <button class="go-button go-second">GO
+          </button>
+        </div>
+        <div>&nbsp;</div>
+      </div>
+    </main>
+  </div>
+<p id="result"> </p>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

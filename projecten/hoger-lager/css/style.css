@@ -1,0 +1,177 @@
+body {
+    background-image: url(/projecten/hoger-lager/img/higher-lower.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(25, 73, 85);
+    color: white;
+}
+
+
+.first-h1 {
+    background-color: rgb(31, 105, 216);
+    width: 500px;
+    height: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+   align-items: center;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 30px;
+   margin-bottom:  30px;
+   border-radius: 10px;
+   box-shadow: 1px 2px 3px black;
+   opacity: 1;
+   text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 3px 1px #919191,
+    1px 5px 6px rgba(16,16,16,0.4),
+    1px 5px 5px rgba(16,16,16,0.2),
+    1px 5px 4px rgba(16,16,16,0.2),
+    1px 3px 3px rgba(16,16,16,0.4);
+}
+.first-h1:hover {
+    box-shadow: 3px 5px 4px rgb(170, 166, 166);
+    font-size: 60px;
+    width: 600px;
+    height: 120px;
+    color: black;
+    background-color: rgb(4, 185, 124);
+    transition-duration: 1.3s;
+   
+}
+
+
+.first-div {
+    position: relative;
+    display: block;
+    padding-top: 200px;
+    padding-left: 250px;
+    border-top: 1px solid rgb(17, 146, 226);
+
+}
+
+
+.second.div {
+    position: relative;
+    padding-top: 200px;
+} 
+
+
+.com-you {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    box-shadow: 2px 3px 4px black;
+    border-radius: 10px;
+}
+
+.com-you:hover {
+    width: 550px;
+    height: 300px;
+    box-shadow: 3px 4px 5px rgb(103, 209, 95);
+    transition-duration: 1s;
+}
+
+
+.vs-you {
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+
+}
+.span-you {
+    position: absolute;
+    left: 270px;
+    top: 167px;
+    font-size: 200px;
+    box-shadow: 2px 3px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+
+.span-you:hover {
+    font-size: 300px;
+    box-shadow: 3px 4px 5px rgb(103, 209, 95);
+    transition-duration: 1s;
+}
+.span-vs {
+    position: absolute;
+    top: 250px;
+   right: 1px;
+   font-size: 100px;
+   color: rgb(202, 222, 24);
+
+}
+
+.third-div {
+    position: relative;
+    border: 1px solid green;
+}
+
+
+.fourth-div {
+    position: relative;
+   
+}
+
+.motivatie-text {
+    position: absolute;
+    top: 600px;
+    left:  45%;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second-page-link {
+    position: absolute;
+    top: 700px;
+    left:  44%;
+    font-size: 100px;
+    font-weight:600;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(135, 135, 55);
+    width: 300px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.second-page-link:hover {
+    opacity: 1;
+
+    
+}
+
+.second-page-link:active {
+    background-color: #3e8e41;
+   
+  }

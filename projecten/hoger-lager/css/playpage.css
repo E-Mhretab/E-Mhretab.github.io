@@ -1,0 +1,193 @@
+
+
+body { /* De hele pagina */
+    background-image: url(/projecten/hoger-lager/img/bg3.webp);
+    background-size: 100px ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:50% 0;
+    color: white;
+    font-size: 40px;
+    
+}
+button:disabled{ /* all Disabled button */
+    background-color: rgba(12, 12, 12, 0.644);
+}
+
+
+.dices{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.headings{
+    padding: 10px;
+    column-count: 5;
+    column-fill: balance;
+}
+
+.credits{
+    column-count: 5;
+    column-fill: balance;
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+.first-title { /* Hoger Lager */
+    font-size: 60px;
+    color: rgb(140, 235, 171);
+    background-color: rgb(35, 102, 202);
+    width: 500px;
+    height: 120px;
+    padding-top: 35px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px rgb(31, 157, 230);
+}
+
+.first-title:hover { /* Hoger Lager hover*/
+        box-shadow: 3px 5px 4px rgb(170, 166, 166);
+        font-size: 70px;
+        width: 550px;
+        height: 130px;
+        color: rgb(243, 249, 249);
+        background-color: rgb(4, 185, 124);
+        transition-duration: 1.3s;
+}
+
+.players {
+   
+}
+
+.dices-computer-player{
+    column-count: 2;
+}
+
+.dices-player{
+    column-count: 2;
+}
+
+.message{
+    column-count: 3;
+    column-fill: balance;
+}
+
+.message-box{
+background-color:  rgba(49, 5, 43, 0.652);
+border-radius: 20px;
+color: rgb(188, 183, 183);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 18px;
+
+   
+}
+
+
+
+.controls{
+    padding: 10px;
+    column-count: 6;
+    column-fill: balance;
+} 
+
+.dice{
+    font-size: 120pt;
+    color: rgb(168, 248, 203);
+    margin-bottom: 100px;
+    box-shadow: 3px 0px 8px rgb(16, 223, 250);
+    border-radius: 50%;
+}
+
+button{
+    width: 100%;
+}
+
+.dice-button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(11, 175, 120);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+
+.higher-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(11, 175, 120);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+
+.lower-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(11, 175, 120);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+.go-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(11, 175, 120);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bold;
+}
+
+.dice-button:hover,
+.higher-button:hover,
+.lower-button:hover,
+.go-button:hover {
+   background-color: black;
+   width: 260px;
+   height: 60px;
+   transition-duration: 1s;
+
+}
+.dice-button:active,
+.higher-button:active,
+.lower-button:active,
+.go-button:active{
+  box-shadow: 2px 2px 2px rgb(7, 235, 7);
+  transition-duration:0s;
+
+}
+
+
+.result{
+    display: block;
+}
+
+#result {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border: 1px solid rgba(4, 235, 12, 0.464);
+    border-radius: 30px;
+    color: rgb(30, 236, 109);
+}
+  
