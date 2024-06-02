@@ -75,7 +75,7 @@ function setMole() {
             currMoleTile.innerHTML = "";
         }
         let mole = document.createElement('img');
-        mole.src = "./projecten/whack-amole/IMG/mole.png"
+        mole.src = "/projecten/whack-amole/IMG/mole.png"
         let num = getRandomTile();
         currMoleTile = document.getElementById(num);
         currMoleTile.appendChild(mole);
